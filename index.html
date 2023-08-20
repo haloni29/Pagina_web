@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto gamer</title>
     <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
 </head>
 <body>
     <div>
@@ -12,31 +13,45 @@
             <nav>
                 <ul class="barra_ini">
                     <li><a href="#">inicio</a></li>
-                    <li><a href="#">cuenta</a></li>
-                    <li><a href="#">acerca de</a></li>
+                    <li><a href="cuenta/cuenta.html">cuenta</a></li>
+                    <li><a href="#" onclick="acerca_de()">acerca de</a></li>
                 </ul>
             </nav>
         </header>
     </div>
+    <aside>
+        <h2>¿que deseas encontrar?</h2>
+        <form>
+            <input type="text" class="input">
+            <input type="submit" value="buscar" class="submit">
+            <input type="submit" value="crear" class="crear" onclick="crear_reseña()"> 
+        </form>
+    </aside>
     <div id="presentacion_pag">
         <p>
             bienvenidos a este blog en el cual se puede crear un foro de un juego donde ser criticara todo sobre ese videojuego, 
             como la jugabiliadad, los graficos, si este tiene bugs, etc.
         </p>
     </div>
+
+    <div id="group_foros">
     <div id="foros">
-        <h3>reseña: cyberpunk 2077</h3>
+        <h3 class="titulos_foro">reseña: cyberpunk 2077</h3>
         <p>Sea como fuere, si quieres disfrutar (y de lo lindo) de Cyberpunk 2077 debes tomarlo como lo que es, nos guste o no: un juego inmersivo, 
             con un lore distópico excepcional muy centrado en la narrativa de sus historias principales y secundarias. 
             La acción es muy divertida, por los añadidos cyberpunk, tipo hackeos, ciberware, gestión de builds e inventario y armas futuristas. 
             El diseño, la ciudad, los personajes, el lore o la calidad de producción es de 10.</p>
-            <iframe width="600" height="300" src="https://www.youtube.com/embed/VhM3NRu23Sk" title="Cyberpunk 2077 — Tráiler de lanzamiento — V" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+            <iframe width="400" height="300" src="https://www.youtube.com/embed/VhM3NRu23Sk" title="Cyberpunk 2077 — Tráiler de lanzamiento — V" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+
+        <h3 class="titulos_foro">reseña: skyrim</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero debitis numquam rem voluptate, quam eos odit reprehenderit architecto itaque quo saepe, pariatur quidem exercitationem tempora. Vero asperiores quas illum quis.</p>
+        </div>
     </div>
         <footer>
             <p>hecho por nicolas</p>
             <ul class="pie_pagina">
                 <li><a href="#">acerca de</a></li>
-                <li><a href="#">contactanos</a></li>
+                <li><a href="#" onclick="contactanos()">contactanos</a></li>
             </ul>
 
         </footer>

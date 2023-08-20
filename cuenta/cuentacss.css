@@ -1,0 +1,60 @@
+
+body{
+    font-family: 'Lato', sans-serif;
+    background: black;
+}
+#menu{
+    margin: 0 auto;
+    background: white;
+    width: 90%;
+}
+
+#menu img{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    margin-top: 20px;
+    border-image: round;
+}
+#menu #cambiar_img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 12px;
+    border-color: white;
+    margin-top: 10px;
+}
+#menu #cambiar_img:hover{
+    background:green;
+}
+#menu #descripcion_cuenta{
+    padding-top: 60px;
+}
+#menu #inicio{
+    float: right;
+    border-radius: 12px;
+    border-color: white;
+    padding: 20px;
+}
+#menu #inicio a{
+    color: black;
+    text-decoration: none; 
+}
+#menu #inicio:hover{
+    background:green;
+}
+#menu #descripcion_cuenta #botones{
+    display: block;
+    border-radius: 12px;
+    border-color: white;
+}
+#menu #descripcion_cuenta #botones:hover{
+    background: green;
+}
+#menu #descripcion_cuenta .titulo{
+    font-size: 30px;
+}
+#menu #descripcion_cuenta .descripcion{
+    font-size: 18px;
+}
