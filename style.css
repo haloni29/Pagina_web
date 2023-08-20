@@ -48,6 +48,9 @@ aside form .input{
 aside form .submit:hover{
     background: rgb(0, 255, 0);
 }
+aside form .crear:hover{
+    background: rgb(0, 255, 0);
+}
 
 #foros{
     background-color: white;
